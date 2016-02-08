@@ -4,9 +4,6 @@ rvm:
 before_install:
 - gem update --system
 - gem install bundler
-addons:
-  code_climate:
-    repo_token: f8d13e074366def3ed35ff79d3ad6a676ad02918a4738b9e651fe115a7940edd
 deploy:
   provider: rubygems
   api_key:
