@@ -1,7 +1,6 @@
 = cc2git
 
-{<img src="https://img.shields.io/codeclimate/github/Nunnery/cc2git.svg?style=flat-square" alt="Code Climate" />}[https://codeclimate.com/github/Nunnery/cc2git]
-{<img src="https://img.shields.io/codeclimate/coverage/github/Nunnery/cc2git.svg?style=flat-square" alt="Code Coverage" />}[https://codeclimate.com/github/Nunnery/cc2git/coverage]
+{<img src="https://img.shields.io/coveralls/Nunnery/cc2git.svg?style=flat-square" alt="Code Coverage" />}[https://coveralls.io/github/Nunnery/cc2git]
 {<img src="https://img.shields.io/travis/Nunnery/cc2git.svg?style=flat-square" alt="Build Status" />}[https://travis-ci.org/Nunnery/cc2git]
 {<img src="https://img.shields.io/gemnasium/Nunnery/cc2git.svg?style=flat-square" alt="Dependency Status" />}[https://gemnasium.com/Nunnery/cc2git]
 {<img src="https://img.shields.io/gem/v/cc2git.svg?style=flat-square" alt="RubyGems" />}[https://rubygems.org/gems/cc2git]

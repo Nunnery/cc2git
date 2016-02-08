@@ -1,7 +1,6 @@
 # cc2git
 
-[![Code Climate](https://img.shields.io/codeclimate/github/Nunnery/cc2git.svg?style=flat-square)](https://codeclimate.com/github/Nunnery/cc2git)
-[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/Nunnery/cc2git.svg?style=flat-square)](https://codeclimate.com/github/Nunnery/cc2git/coverage)
+[![Test Coverage](https://img.shields.io/coveralls/Nunnery/cc2git.svg?style=flat-square)](https://coveralls.io/github/Nunnery/cc2git)
 [![Build Status](https://img.shields.io/travis/Nunnery/cc2git.svg?style=flat-square)](https://travis-ci.org/Nunnery/cc2git)
 [![Dependency Status](https://img.shields.io/gemnasium/Nunnery/cc2git.svg?style=flat-square)](https://gemnasium.com/Nunnery/cc2git)
 [![Gem Version](https://img.shields.io/gem/v/cc2git.svg?style=flat-square)](https://rubygems.org/gems/cc2git)
