@@ -23,8 +23,6 @@ Gem::Specification.new do |gem|
   gem.extra_rdoc_files = glob['*.{txt,rdoc}']
 
   gem.add_dependency 'commander', '~> 4.3' # CLI parser
-  gem.add_dependency 'json' # Because sometimes it's just not installed
-  gem.add_dependency 'multi_json' # Because sometimes it's just not installed
   gem.add_dependency 'pastel', '~> 0.5' # Colored terminal output
   gem.add_dependency 'git', '~> 1.2' # Ruby/Git library
 
