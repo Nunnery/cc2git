@@ -29,7 +29,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'git', '~> 1.2' # Ruby/Git library
 
   gem.add_development_dependency 'bundler', '~> 1.10'
-  gem.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
   gem.add_development_dependency 'coveralls', '~> 0.8'
   gem.add_development_dependency 'fuubar', '~> 2.0'
   gem.add_development_dependency 'pry', '~> 0.10'
