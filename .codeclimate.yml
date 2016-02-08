@@ -3,6 +3,11 @@ engines:
     enabled: true
   bundler-audit:
     enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
   fixme:
     enabled: true
 ratings:
