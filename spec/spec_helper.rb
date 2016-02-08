@@ -4,6 +4,9 @@ require 'cc2git'
 if Cc2git::Helper.is_ci?
   require 'coveralls'
   Coveralls.wear!
+
+  require 'codeclimate-test-reporter'
+  CodeClimate::TestReporter.start
 end
 
 Dir[File.dirname(__FILE__) + '/support/**/*.rb'].each { |f| require f }
