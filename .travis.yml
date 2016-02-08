@@ -7,10 +7,6 @@ before_install:
 addons:
   code_climate:
     repo_token: f8d13e074366def3ed35ff79d3ad6a676ad02918a4738b9e651fe115a7940edd
-env:
-  global:
-    GEMNASIUM_TESTSUITE: bundle exec rake
-    GEMNASIUM_PROJECT_SLUG: Nunnery/timewizard
 deploy:
   provider: rubygems
   api_key:
@@ -19,3 +15,6 @@ deploy:
   on:
     tags: true
     repo: Nunnery/cc2git
+env:
+  global:
+    secure: pxq3LOKuY4WoTpGekEX/tN6IQXxd+K90t+GJi8AjFuXdUHzqScsXKs06B94L8rG/3X5KJ1ewUfq79sHOoouim48RYVhktlBW6ZZy2HlliWgWhYaMVtVpKJHh+mK9H88Umlz/youabvRG94Ao06fKpoDnkFq11oye+aNj1HCx1GZxHc2VQJIvhSSGzrlkU4wSDIWbq9rnuNAnkU7PZoUFlY2AQQPTVHt1cJKxIq4s16Q/cu66Rj5Eq/j5Tsy9dyLN9v+wH6wr1XTY4roM7no1HUn0ZzOXqsyTxMzPR0mEWpDaof2G552M92l6sMtk957p9jOWNmICZG8B4kEkFdYGPuTVsQx/5CmR/rIIleUO59rq4Nt8p20l7noT/OYdIzMDbg3QSVOQ4NZSIixr5kIRBqYtyk4qaM+Y4GH5H6Osv53acorh9+76LVvIFiHyFqRpvX3TCbgUf5O5eiHEhYpJa00d2bKdqrhZl8XFOdeCFQzQ2g9neKXXx9lnAUUTUhJFg7SY6VWzAldctaRrR+1JoeVdFiEVVNJnQNF+OdoUsl+Xa9CgxrV0TJz29dCBlE47AAnUlWj//oj407/yEMIuscFxrniRCSFL3Ro0kFJ8tN5eZ7C4Xa7mjyRtJTzXQojr2cl9MUcLojc3iDB/6t2S5F8XDX+d18u/RWYY8GYw928=
