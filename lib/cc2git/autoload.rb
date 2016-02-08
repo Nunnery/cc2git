@@ -5,4 +5,5 @@ def __p(path) File.join(Cc2git::ROOT, 'cc2git', *path.split('/')); end
 
 module Cc2git
   autoload :Helper, __p('helper')
+  autoload :Printing, __p('printing')
 end
