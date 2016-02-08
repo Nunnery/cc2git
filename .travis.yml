@@ -4,7 +4,18 @@ rvm:
 before_install:
 - gem update --system
 - gem install bundler
+addons:
+  code_climate:
+    repo_token: f8d13e074366def3ed35ff79d3ad6a676ad02918a4738b9e651fe115a7940edd
 env:
   global:
     GEMNASIUM_TESTSUITE: bundle exec rake
     GEMNASIUM_PROJECT_SLUG: Nunnery/timewizard
+deploy:
+  provider: rubygems
+  api_key:
+    secure: c/kyZT7NsK9/JuXAdTZ41QR/tQXOUdxVRa43z9/3R80i48u/lzPYDOvhTeDI5n88SZIbXe+2nraZjW3ymnA3M4gsglrMIA7jy4cPJMVzhzkzeKFE4m2AfFG3IgixR4ZPkGLILZjTJt3+m1nBjQswsUercgJ34sul1V7RLscefE2RGnboopoKDqi4j38RADmq3rtdcGFZzS+th4uVmg4QSMUQhapzOXjxonXIs/fXN8wgajQc2ir+K0X7hY0h/mIQvB2HQPlOwIdg8FaR8sAWNF/+8aLZirNDLcNGjeJ/9oic7mrYiwC1L3xr1sGGUS0E0rb2iUuOIgPAEIXBb1gDlmZLqmcYow9WaHXFrHVN9hkB9eV2wMgLd1wKc5Oe8pc1A74Khm3VVryb+KzFMmsh1jrIjp0Cfm25azlkDqOFR/Qj7XZnAzALrwZ7mXTrUo9v2zEl2K6FDfUlGlEm7Ck5uem2knepGR32ripg5fzn0tBtdB0vSIkOHrNURtQofQsBlJE/0ccmGa3hjNhBdiw+fcpy2wWUrrqdfzOFIhpYJ5bqZVlxh5hO7VeoMkS/ljiMePU8xw5RVvu3oZFGulilg3AuPMZndMRtzI068WKHXrmzS0NBy9ou4PayBWluwkwSnh4UePFg5S1DDfLfa/C3uJP66U1DQOaQPxjBKBypf9A=
+  gem: cc2git
+  on:
+    tags: true
+    repo: Nunnery/cc2git
