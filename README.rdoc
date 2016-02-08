@@ -1,0 +1,30 @@
+= cc2git
+
+{<img src="https://img.shields.io/codeclimate/github/Nunnery/cc2git.svg?style=flat-square" alt="Code Climate" />}[https://codeclimate.com/github/Nunnery/cc2git]
+{<img src="https://img.shields.io/codeclimate/coverage/github/Nunnery/cc2git.svg?style=flat-square" alt="Code Coverage" />}[https://codeclimate.com/github/Nunnery/cc2git/coverage]
+{<img src="https://img.shields.io/travis/Nunnery/cc2git.svg?style=flat-square" alt="Build Status" />}[https://travis-ci.org/Nunnery/cc2git]
+{<img src="https://img.shields.io/gemnasium/Nunnery/cc2git.svg?style=flat-square" alt="Dependency Status" />}[https://gemnasium.com/Nunnery/cc2git]
+{<img src="https://img.shields.io/gem/v/cc2git.svg?style=flat-square" alt="RubyGems" />}[https://rubygems.org/gems/cc2git]
+{<img src="http://inch-ci.org/github/Nunnery/cc2git.svg?branch=master&style=flat-square" alt="Doc Coverage" />}[http://inch-ci.org/github/Nunnery/cc2git]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'cc2git'
+
+== Requirements
+
+== Install
+
+  $ gem install cc2git
+
+== Copyright
+
+Copyright (c) 2016 Richard Harrah
+
+See LICENSE.txt for details.
