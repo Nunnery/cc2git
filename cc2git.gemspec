@@ -23,8 +23,8 @@ Gem::Specification.new do |gem|
   gem.extra_rdoc_files = glob['*.{txt,rdoc}']
 
   gem.add_dependency 'commander', '~> 4.3' # CLI parser
-  gem.add_dependency 'pastel', '~> 0.5' # Colored terminal output
   gem.add_dependency 'git', '~> 1.2' # Ruby/Git library
+  gem.add_dependency 'tty', '~> 0.3' # Useful terminal library
 
   gem.add_development_dependency 'bundler', '~> 1.10'
   gem.add_development_dependency 'coveralls', '~> 0.8'
